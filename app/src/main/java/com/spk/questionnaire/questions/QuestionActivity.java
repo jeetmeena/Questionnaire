@@ -1,5 +1,6 @@
 package com.spk.questionnaire.questions;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -33,7 +34,7 @@ public class QuestionActivity extends AppCompatActivity
     final ArrayList<Fragment> fragmentArrayList = new ArrayList<>();
     List<QuestionsItem> questionsItems = new ArrayList<>();
     private AppDatabase appDatabase;
-    //private TextView questionToolbarTitle;
+    private TextView questionToolbarTitle;
     private TextView questionPositionTV;
     private String totalQuestions = "1";
     private Gson gson;
@@ -45,7 +46,10 @@ public class QuestionActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question);
 
-        toolBarInit();
+
+        Intent intent = getIntent();
+        String message = intent.getStringExtra("nameClass");
+        toolBarInit(message);
 
         appDatabase = AppDatabase.getAppDatabase(QuestionActivity.this);
         gson = new Gson();
@@ -57,17 +61,16 @@ public class QuestionActivity extends AppCompatActivity
         }
     }
 
-    private void toolBarInit()
+    private void toolBarInit(String message)
     {
         Toolbar questionToolbar = findViewById(R.id.questionToolbar);
+        setSupportActionBar(questionToolbar);
         questionToolbar.setNavigationIcon(R.drawable.ic_arrow_back);
         questionToolbar.setNavigationOnClickListener(v -> onBackPressed());
-
-        //questionToolbarTitle = questionToolbar.findViewById(R.id.questionToolbarTitle);
+         questionToolbarTitle = questionToolbar.findViewById(R.id.questionToolbarTitle);
+        questionToolbarTitle.setText(message);
         questionPositionTV = questionToolbar.findViewById(R.id.questionPositionTV);
-
-        //questionToolbarTitle.setText("Questions");
-    }
+     }
 
     /*This method decides how many Question-Screen(s) will be created and
     what kind of (Multiple/Single choices) each Screen will be.*/

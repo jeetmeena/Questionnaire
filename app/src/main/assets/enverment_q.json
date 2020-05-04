@@ -1,0 +1,180 @@
+{
+  "data": {
+    "questions": [
+      {
+        "id": 1110,
+        "question_type_id": 1,
+        "question_type_name": "CheckBox",
+        "question_name": "What is greenhouse effect?",
+        "question_item": [
+          {
+            "answer_id": "11",
+            "name": "It is a phenomenon that traps long wavelength radiation\n that leads to more heating and a higher resultant temperature."
+          },
+          {
+            "answer_id": "12",
+            "name": "It is a phenomenon of releasing heat wave to the environment."
+          },
+          {
+            "answer_id": "13",
+            "name": "Both A & B"
+          },
+          {
+            "answer_id": "14",
+            "name": "None of the above"
+          }
+        ]
+      },
+      {
+        "id": 1112,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "What are the main the constituent of acid rains?",
+        "question_item": [
+          {
+            "answer_id": "21",
+            "name": "Sunlight warms your car"
+          },
+          {
+            "answer_id": "22",
+            "name": "Weather change"
+          },
+          {
+            "answer_id": "23",
+            "name": "Sea Breezes"
+          },
+          {
+            "answer_id": "24",
+            "name": "Cloud Bursting"
+          }
+        ]
+      },
+      {
+        "id": 1113,
+        "question_type_id": 1,
+        "question_type_name": "CheckBox",
+        "question_name": "What are the main the constituent of acid rains?",
+        "question_item": [
+          {
+            "answer_id": "31",
+            "name": "Nitrogen Oxide"
+          },
+          {
+            "answer_id": "32",
+            "name": " Sulphur Dioxide"
+          },
+          {
+            "answer_id": "33",
+            "name": "Nitrogen Dioxide"
+          },
+          {
+            "answer_id": "34",
+            "name": "All of the above"
+          }
+        ]
+      },
+      {
+        "id": 1114,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "When the problem of ozone depletion was first identified ?",
+        "question_item": [
+          {
+            "answer_id": "41",
+            "name": "1970"
+          },
+          {
+            "answer_id": "42",
+            "name": "1971"
+          },
+          {
+            "answer_id": "43",
+            "name": "2013"
+          },
+          {
+            "answer_id": "44",
+            "name": "2015 "
+          },
+          {
+            "answer_id": "45",
+            "name": "2018 -  above"
+          }
+        ]
+      },
+      {
+        "id": 1115,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "What is salinisation ?",
+        "question_item": [
+          {
+            "answer_id": "51",
+            "name": "It is a process of accumulation of soluble minerals in upper soil horizons."
+          },
+          {
+            "answer_id": "52",
+            "name": "It is a process of accumulation of soluble base in upper soil horizons."
+          },
+          {
+            "answer_id": "53",
+            "name": "It is a process of accumulation of soluble acid in upper soil horizons."
+          },
+          {
+            "answer_id": "54",
+            "name": "It is a process of accumulation of soluble salts in upper soil horizons."
+          }
+        ]
+      },
+      {
+        "id": 1116,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "Which of the following is/are the main factor(s) responsible for the rapid rate deforestation ?",
+        "question_item": [
+          {
+            "answer_id": "71",
+            "name": "Rapid growth of population in the developing countries"
+          },
+          {
+            "answer_id": "72",
+            "name": "Extension of agriculture and grazing lands"
+          },
+          {
+            "answer_id": "73",
+            "name": " Rising demand for lumber, timber, paper, fuel-wood and charcoal, and other forest products."
+          },
+          {
+            "answer_id": "74",
+            "name": "All of the above"
+          }
+        ]
+      },
+      {
+        "id": 1117,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "Which of the following is not related with the sources of Air pollution ?",
+        "question_item": [
+          {
+            "answer_id": "61",
+            "name": "Volcanic Emissions"
+          },
+          {
+            "answer_id": "62",
+            "name": "Acid Rains"
+          },
+          {
+            "answer_id": "63",
+            "name": "Petroleum Refining"
+          },
+          {
+            "answer_id": "64",
+            "name": "All of the above"
+          }
+        ]
+      }
+    ]
+  },
+  "status": true,
+  "message": "The data was fetched successfully"
+}

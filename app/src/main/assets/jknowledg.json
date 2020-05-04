@@ -1,0 +1,191 @@
+{
+  "data": {
+    "questions": [
+      {
+        "id": 18,
+        "question_type_id": 1,
+        "question_type_name": "CheckBox",
+        "question_name": "Union Budget of India is presented by whom and in which house/ houses of the Parliament? ?",
+        "question_item": [
+          {
+            "answer_id": "11",
+            "name": "Finance Minister of India; Lok Sabha"
+          },
+          {
+            "answer_id": "12",
+            "name": "Prime Minister of India; Rajya Sabha"
+          },
+          {
+            "answer_id": "13",
+            "name": "Cabinet Secretary; Both Lok Sabha and Rajya Sabha"
+          },
+          {
+            "answer_id": "14",
+            "name": "President of India; in joint session of Parliamnet"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "Who among the following presented the first budget (interim) of Independent India ?",
+        "question_item": [
+          {
+            "answer_id": "21",
+            "name": "Manmohan Singh"
+          },
+          {
+            "answer_id": "22",
+            "name": "Jawaharlal Nehru"
+          },
+          {
+            "answer_id": "23",
+            "name": "R K Shanmukham Chetty"
+          },
+          {
+            "answer_id": "24",
+            "name": "N.D. Tiwari"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question_type_id": 1,
+        "question_type_name": "CheckBox",
+        "question_name": "When is earth day observed ?",
+        "question_item": [
+          {
+            "answer_id": "31",
+            "name": " 20 March"
+          },
+          {
+            "answer_id": "32",
+            "name": " 22 April"
+          },
+          {
+            "answer_id": "33",
+            "name": "5 June"
+          },
+          {
+            "answer_id": "34",
+            "name": "15 June"
+          },
+          {
+            "answer_id": "35",
+            "name": "Wireless Charging"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "Which of the following statements best describes \"carbon fertilization\"?",
+        "question_item": [
+          {
+            "answer_id": "41",
+            "name": "Increased plant growth due to increased concentration of carbon dioxide in the atmosphere"
+          },
+          {
+            "answer_id": "42",
+            "name": " Increased temperature of Earth due to increased concentration of carbon dioxide in the atmosphere"
+          },
+          {
+            "answer_id": "43",
+            "name": "Increased acidity of oceans as a result of increased concentration of carbon dioxide in the atmosphere"
+          },
+          {
+            "answer_id": "44",
+            "name": "Adaptation of all living beings on Earth to the climate change brought about hr the increased concentration of carbon dioxide in the atmosphere"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "When the alarm of your smartphone rings in the morning, you wake up and tap it to stop the alarm which causes your geyser to be switched on automatically. The smart mirror in your bathroom shows the day's weather and also indicates the level of water in your overhead tank. After you take some groceries from your refrigerator for making breakfast, it recognises the shortage of stock in it and places an order for the supply of fresh grocery items. When you step out of your house and lock the door, all lights, fans, geysers and AC machines get switched off automatically. On your way to office, your car warns you about traffic congestion ahead and suggests an alternative route, and if you are late for a meeting, it sends a- message to your office accordingly.\nIn the context of emerging communication technologies, which one of the following term\" best applies to the above scenario?",
+        "question_item": [
+          {
+            "answer_id": "51",
+            "name": "Border Gateway Protocol"
+          },
+          {
+            "answer_id": "52",
+            "name": "Internet of Things"
+          },
+          {
+            "answer_id": "53",
+            "name": " Internet Protocol"
+          },
+          {
+            "answer_id": "54",
+            "name": "Virtual Private Network"
+          },
+          {
+            "answer_id": "55",
+            "name": "Mediatek"
+          },
+          {
+            "answer_id": "56",
+            "name": "AMD"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "The staple commodities of export by the English East India Company from Bengal in the middle of the 18th century were",
+        "question_item": [
+          {
+            "answer_id": "61",
+            "name": "Copper, silver, gold, spices and tea"
+          },
+          {
+            "answer_id": "62",
+            "name": "Raw cotton, oil-seeds and opium"
+          },
+          {
+            "answer_id": "63",
+            "name": "Sugar, salt, zinc and lead"
+          },
+          {
+            "answer_id": "64",
+            "name": "Cotton, silk, saltpetre and opium"
+          }
+
+        ]
+      },
+      {
+        "id": 19,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": " Which one of the following is a very significant aspect of the Champaran Satyagraha?",
+        "question_item": [
+          {
+            "answer_id": "61",
+            "name": " Active all-India participation of lawyers, students and women in the National Movement"
+          },
+          {
+            "answer_id": "62",
+            "name": "Active involvement of Dalit and Tribal communities of India in the National Movement"
+          },
+          {
+            "answer_id": "63",
+            "name": "Joining of peasant unrest to India's National Movement"
+          },
+          {
+            "answer_id": "64",
+            "name": "Drastic decrease in the cultivation of plantation crops and commercial crops"
+          }
+
+        ]
+      }
+
+    ]
+  },
+  "status": true,
+  "message": "The data was fetched successfully"
+}

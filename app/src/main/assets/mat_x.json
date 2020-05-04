@@ -1,0 +1,294 @@
+{
+  "data": {
+    "questions": [
+      {
+        "id": 18,
+        "question_type_id": 1,
+        "question_type_name": "CheckBox",
+        "question_name": "For some integer m, every odd integer is of the form ?",
+        "question_item": [
+          {
+            "answer_id": "11",
+            "name": "m"
+          },
+          {
+            "answer_id": "12",
+            "name": "m+1"
+          },
+          {
+            "answer_id": "13",
+            "name": "2m"
+          },
+          {
+            "answer_id": "14",
+            "name": "2m+1"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "If two positive integers a and b are written as a = p^3q^2 and b = pq^3; p, q are prime numbers, then HCF (a, b) is: ?",
+        "question_item": [
+          {
+            "answer_id": "21",
+            "name": "pq"
+          },
+          {
+            "answer_id": "22",
+            "name": "pq^2"
+          },
+          {
+            "answer_id": "23",
+            "name": "p^3q^3"
+          },
+          {
+            "answer_id": "24",
+            "name": "p^2q^2"
+          },
+          {
+            "answer_id": "25",
+            "name": "p"
+          },
+          {
+            "answer_id": "26",
+            "name": "q"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question_type_id": 1,
+        "question_type_name": "CheckBox",
+        "question_name": "The product of a non-zero number and an irrational number is: ?",
+        "question_item": [
+          {
+            "answer_id": "31",
+            "name": "always irrational"
+          },
+          {
+            "answer_id": "32",
+            "name": "always rational"
+          },
+          {
+            "answer_id": "33",
+            "name": "rational or irrational"
+          },
+          {
+            "answer_id": "34",
+            "name": "one"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": " If the HCF of 65 and 117 is expressible in the form 65 m – 117, then the value of m is ?",
+        "question_item": [
+          {
+            "answer_id": "41",
+            "name": "4"
+          },
+          {
+            "answer_id": "42",
+            "name": "2"
+          },
+          {
+            "answer_id": "43",
+            "name": "1"
+          },
+          {
+            "answer_id": "44",
+            "name": "3"
+          },
+          {
+            "answer_id": "45",
+            "name": "5 -  above"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "The largest number which divides 70 and 125, leaving remainders 5 and 8, respectively, is ?",
+        "question_item": [
+          {
+            "answer_id": "51",
+            "name": "13"
+          },
+          {
+            "answer_id": "52",
+            "name": "65"
+          },
+          {
+            "answer_id": "53",
+            "name": "875"
+          },
+          {
+            "answer_id": "54",
+            "name": "1750"
+          },
+          {
+            "answer_id": "55",
+            "name": "111"
+          },
+          {
+            "answer_id": "56",
+            "name": "333"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": " If two positive integers p and q can be expressed as p = ab2 and q = a3b; a, b being prime numbers, then LCM (p, q) is ?",
+        "question_item": [
+          {
+            "answer_id": "61",
+            "name": "ab"
+          },
+          {
+            "answer_id": "62",
+            "name": "a^2b^2"
+          },
+          {
+            "answer_id": "63",
+            "name": "a^3b^2"
+          },
+          {
+            "answer_id": "64",
+            "name": "a^3b^3"
+          }
+        ]
+      },
+      {
+        "id": 111,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": " The values of the remainder r, when a positive integer a is divided by 3 are: ?",
+        "question_item": [
+          {
+            "answer_id": "61",
+            "name": "0, 1, 2, 3 "
+          },
+          {
+            "answer_id": "62",
+            "name": "0,1"
+          },
+          {
+            "answer_id": "63",
+            "name": "0,1,2"
+          },
+          {
+            "answer_id": "64",
+            "name": "2,3,4"
+          }
+        ]
+      },
+      {
+        "id": 112,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "A rational number in its decimal expansion is 327.7081. What would be the prime factors of q when the number is expressed in the p/q form ?",
+        "question_item": [
+          {
+            "answer_id": "61",
+            "name": "2 and 3"
+          },
+          {
+            "answer_id": "62",
+            "name": "3 and 5"
+          },
+          {
+            "answer_id": "63",
+            "name": "2, 3 and 5 "
+          },
+          {
+            "answer_id": "64",
+            "name": "2 and 5"
+          }
+        ]
+      },
+      {
+        "id": 114,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "The least number that is divisible by all the numbers from 1 to 10 (both inclusive) is ?",
+        "question_item": [
+          {
+            "answer_id": "61",
+            "name": "10"
+          },
+          {
+            "answer_id": "62",
+            "name": "100"
+          },
+          {
+            "answer_id": "63",
+            "name": "2060"
+          },
+          {
+            "answer_id": "64",
+            "name": "2520"
+          }
+        ]
+      },
+      {
+        "id": 115,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "n^2 – 1 is divisible by 8, if n is",
+        "question_item": [
+          {
+            "answer_id": "61",
+            "name": "an integer   "
+          },
+          {
+            "answer_id": "62",
+            "name": "a natural number"
+          },
+          {
+            "answer_id": "63",
+            "name": "an odd integer greater than 1"
+          },
+          {
+            "answer_id": "64",
+            "name": " an even integer"
+          }
+        ]
+      },      {
+        "id": 116,
+        "question_type_id": 2,
+        "question_type_name": "Radio",
+        "question_name": "If n is a rational number, then 5^2n − 2^2n is divisible by",
+        "question_item": [
+          {
+            "answer_id": "61",
+            "name": "3"
+          },
+          {
+            "answer_id": "62",
+            "name": "7"
+          },
+          {
+            "answer_id": "63",
+            "name": "Both 3 and 7 "
+          },
+          {
+            "answer_id": "64",
+            "name": "None of these"
+          }
+        ]
+      }
+
+
+
+    ]
+  },
+  "status": true,
+  "message": "The data was fetched successfully"
+}

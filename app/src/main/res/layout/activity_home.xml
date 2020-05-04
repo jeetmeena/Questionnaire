@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@android:color/white"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+ <androidx.appcompat.widget.Toolbar
+     android:id="@+id/mainPageToolbar"
+     android:layout_width="match_parent"
+     android:layout_height="?attr/actionBarSize"
+     android:elevation="4dp"
+     android:background="?attr/colorPrimary"
+     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+     app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+     app:layout_constraintTop_toTopOf="parent"
+     />
+ <androidx.cardview.widget.CardView
+     android:id="@+id/cv_1"
+     android:layout_width="0dp"
+     android:elevation="5dp"
+     android:layout_marginTop="23dp"
+     android:layout_marginStart="16dp"
+     android:layout_marginEnd="8dp"
+     android:layout_height="wrap_content"
+     app:cardCornerRadius="5dp"
+
+     app:cardUseCompatPadding="true"
+     app:layout_constraintTop_toBottomOf="@id/mainPageToolbar"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintEnd_toStartOf="@+id/cv_2"
+     android:onClick="c1OnClick"
+     >
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+
+      >
+   <ImageView
+       android:id="@+id/iv_icon"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:layout_marginStart="2dp"
+       android:layout_marginEnd="2dp"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       android:background="@drawable/bran_image"
+
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:layout_constraintTop_toBottomOf="@id/iv_icon"
+       android:text="mathematics\nquiz "
+       android:gravity="center"
+       android:textSize="18sp"
+       android:textStyle="bold"
+       android:textAllCaps="true"
+       />
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+ </androidx.cardview.widget.CardView>
+ <androidx.cardview.widget.CardView
+     android:id="@+id/cv_2"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:elevation="5dp"
+     app:cardCornerRadius="5dp"
+     app:cardUseCompatPadding="true"
+     android:layout_marginTop="23dp"
+     android:layout_marginStart="8dp"
+     android:layout_marginEnd="16dp"
+     android:onClick="c2OnClick"
+     app:layout_constraintTop_toBottomOf="@id/mainPageToolbar"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toEndOf="@id/cv_1"
+     >
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+   <ImageView
+       android:id="@+id/iv_icon0"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       android:layout_marginStart="2dp"
+       android:layout_marginEnd="2dp"
+       android:background="@drawable/computer_image"
+
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:layout_constraintTop_toBottomOf="@id/iv_icon0"
+       android:text="Information technology "
+       android:gravity="center"
+       android:textSize="18sp"
+       android:textStyle="bold"
+       android:textAllCaps="true"
+       />
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+ </androidx.cardview.widget.CardView>
+ <androidx.cardview.widget.CardView
+     android:id="@+id/cv_3"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="32dp"
+     android:elevation="5dp"
+     android:onClick="c3OnClick"
+     android:layout_marginStart="16dp"
+     app:cardCornerRadius="5dp"
+     android:layout_marginEnd="8dp"
+     app:layout_constraintTop_toBottomOf="@id/cv_1"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintEnd_toStartOf="@+id/cv_4"
+     >
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+
+      >
+   <ImageView
+       android:id="@+id/iv_icon3"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:layout_marginStart="2dp"
+       android:layout_marginEnd="2dp"
+       android:background="@drawable/gk_image"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+
+
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:layout_constraintTop_toBottomOf="@id/iv_icon3"
+       android:text="general knowledge"
+       android:gravity="center"
+       android:textSize="18sp"
+       android:textStyle="bold"
+       android:textAllCaps="true"
+       />
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+ </androidx.cardview.widget.CardView>
+ <androidx.cardview.widget.CardView
+     android:id="@+id/cv_4"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:elevation="5dp"
+     android:onClick="c4OnClick"
+     android:layout_marginTop="32dp"
+     android:layout_marginStart="8dp"
+     android:layout_marginEnd="16dp"
+     app:cardCornerRadius="5dp"
+     app:cardUseCompatPadding="true"
+     app:layout_constraintTop_toBottomOf="@id/cv_2"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toEndOf="@id/cv_3"
+     >
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+
+      >
+   <ImageView
+       android:id="@+id/iv_icon4"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:layout_marginStart="2dp"
+       android:layout_marginEnd="2dp"
+       android:background="@drawable/test_na"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:layout_constraintTop_toBottomOf="@id/iv_icon4"
+       android:text="environment\nquiz "
+       android:gravity="center"
+       android:textSize="18sp"
+       android:textStyle="bold"
+       android:textAllCaps="true"
+       />
+  </androidx.constraintlayout.widget.ConstraintLayout>
+ </androidx.cardview.widget.CardView>
+ <View
+
+     android:id="@+id/v_divider"
+     android:layout_width="match_parent"
+     android:layout_height="2dp"
+     app:layout_constraintTop_toBottomOf="@id/cv_3"
+     android:background="@android:color/darker_gray"
+     android:layout_marginTop="32dp"
+     />
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     app:layout_constraintTop_toBottomOf="@id/v_divider"
+     android:layout_marginTop="16dp"
+     android:layout_marginStart="16dp"
+     android:layout_marginEnd="16dp"
+     android:text="Exams test your memory, life tests\n your learning; others will test\n your patience. . "
+     android:gravity="center"
+     android:textSize="18sp"
+     android:textStyle="bold"
+     />
+</androidx.constraintlayout.widget.ConstraintLayout>
+ </ScrollView>

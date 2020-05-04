@@ -25,14 +25,40 @@
         android:layout_below="@+id/mainPageToolbar"
         android:layout_centerVertical="true"
         >
+        <ImageView
+            android:id="@+id/iv_i1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/test_na"
+            android:scaleType="fitXY"
+            />
+        <ImageView
+            android:id="@+id/iv_im"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#aaddffdd"
 
+              />
+        <TextView
+            android:id="@+id/tv_t"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimary"
+            android:layout_above="@id/questionnaireButton"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            />
         <Button
             android:id="@+id/questionnaireButton"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
+              android:layout_marginBottom="32dp"
             android:layout_marginEnd="30dp"
             android:layout_marginStart="30dp"
             android:text="@string/start_questionnaire"
